@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dptoredes.leccion.PantallaJuego">
+
+
+    <TextView
+        android:id="@+id/holaUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/hola" />
+
+    <TextView
+        android:id="@+id/pregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/holaUsuario"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/pregunta" />
+
+    <Button
+        android:id="@+id/btn_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="@string/_1"
+        android:layout_below="@+id/pregunta"
+        android:layout_toStartOf="@+id/btn_nuevo" />
+
+    <Button
+        android:id="@+id/btn_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2"
+        android:layout_alignBaseline="@+id/btn_01"
+        android:layout_alignBottom="@+id/btn_01"
+        android:layout_toEndOf="@+id/btn_nuevo" />
+
+    <Button
+        android:id="@+id/btn_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/btn_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_03"
+        android:layout_marginTop="32dp"
+        android:layout_toStartOf="@+id/btn_03"
+        android:text="@string/_4" />
+
+    <Button
+        android:id="@+id/btn_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_04"
+        android:layout_alignStart="@+id/btn_02"
+        android:text="@string/_5" />
+
+    <Button
+        android:id="@+id/btn_nuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+        android:text="@string/nuevo_intento"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
