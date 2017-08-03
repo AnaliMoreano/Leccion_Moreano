@@ -11,5 +11,7 @@
     <string name="ingrese_su_nombre">Your name</string>
     <string name="jugar">Play</string>
     <string name="nombre">Name:</string>
+    <string name="end">End</string>
+    <string name="nueva_pregunta">Which number is #2?</string>
 </resources>
 

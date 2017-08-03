@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dptoredes.leccion.PantallaJuego">
-
+    tools:context="com.example.dptoredes.leccion.PantallaJuego_02">
 
     <TextView
         android:id="@+id/holaUsuario"
@@ -17,13 +16,13 @@
         android:text="@string/hola" />
 
     <TextView
-        android:id="@+id/pregunta"
+        android:id="@+id/pregunta_01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/holaUsuario"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="@string/pregunta" />
+        android:text="@string/nueva_pregunta" />
 
     <Button
         android:id="@+id/btn_01"
@@ -31,8 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
         android:text="@string/_1"
-        android:layout_below="@+id/pregunta"
-        android:layout_toStartOf="@+id/btn_nuevo" />
+        android:layout_below="@+id/pregunta_01"
+        android:layout_toStartOf="@+id/btn_03" />
 
     <Button
         android:id="@+id/btn_02"
@@ -41,7 +40,7 @@
         android:text="@string/_2"
         android:layout_alignBaseline="@+id/btn_01"
         android:layout_alignBottom="@+id/btn_01"
-        android:layout_toEndOf="@+id/btn_nuevo" />
+        android:layout_toEndOf="@+id/btn_03" />
 
     <Button
         android:id="@+id/btn_03"
@@ -70,14 +69,22 @@
         android:text="@string/_5" />
 
     <Button
-        android:id="@+id/btn_nuevo"
+        android:id="@+id/btn_fin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="38dp"
-        android:text="@string/nuevo_intento"
-        android:onClick="seguirJuego"
+        android:text="@string/end"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/aciertos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pregunta_01"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:text="TextView" />
 
 
 </RelativeLayout>

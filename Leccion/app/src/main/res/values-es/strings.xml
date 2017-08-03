@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Leccion</string>
     <string name="hola">Hola</string>
-    <string name="pregunta">Cuál es el #4?</string>
+    <string name="pregunta">Cuál es el número #4?</string>
     <string name="_1">1</string>
     <string name="_2">2</string>
     <string name="_4">4</string>
@@ -11,4 +11,6 @@
     <string name="ingrese_su_nombre">Ingrese su nombre</string>
     <string name="jugar">Jugar</string>
     <string name="nombre">Nombre:</string>
+    <string name="end">Fin</string>
+    <string name="nueva_pregunta">Cuál es el número #2?</string>
 </resources>
